@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Merge2SortedArray {
     public static List< Integer > sortedArray(int []a, int []b) {
-        List<Integer> arr = new ArrayList<Integer>();
+        List<Integer> arr = new ArrayList<>();
         int x = 0;
         int y = 0;
         while(x < a.length && y < b.length ){
